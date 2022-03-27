@@ -19,7 +19,6 @@ pipeline {
     }
     stage ('Apply resources') {
       when {
-        when {
           branch 'main'
         }
       }
